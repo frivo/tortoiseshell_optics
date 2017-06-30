@@ -50,6 +50,10 @@ body {
 	padding: 1rem 0;	
 }
 
+.mobile-navigation {
+	display: none;
+}
+
 .navigation ul {
 	display: flex;
 }
@@ -144,6 +148,7 @@ body {
 
 @media only screen and (max-width: 1024px) {
 	.top {
+		height: 22rem;
 		padding-top: 0;
 	}
 
@@ -151,4 +156,43 @@ body {
 		width: 100%;
 	}
 
+	.headline-text {
+		margin-top: 5rem;
+		margin-right: 2rem;
+	}
+
+	.headline-text h1 {
+		padding: 0.75rem 4rem;
+		font-size: 1.33rem;
+	}
+
+}
+
+@media only screen and (max-width: 470px) {
+	.mobile-navigation {
+		display: block;
+	}
+
+	.navigation {
+		display: none;
+	}
+	.top {
+		height: 17rem;
+		padding-top: 0;
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	.headline-text {
+		margin: 9rem 0 0 0;
+		width: 100%;
+	}
+
+	.headline-text h1 {
+		padding: 1rem auto;
+		font-size: 1rem;
+		text-align: center;
+	}
 }
