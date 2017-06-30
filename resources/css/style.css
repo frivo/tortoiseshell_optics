@@ -102,7 +102,9 @@ body {
 .competency img {
 	width: 5rem;
 	height: auto;
+	margin-bottom: 1rem;
 }
+
 .exams img {
 	width: 3.5rem;
 	height: auto;
@@ -170,7 +172,7 @@ body {
 
 @media only screen and (max-width: 470px) {
 	.mobile-navigation {
-		display: block;
+		display: flex;
 	}
 
 	.navigation {
@@ -195,4 +197,65 @@ body {
 		font-size: 1rem;
 		text-align: center;
 	}
+
+	.competencies {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		height: auto;
+		align-items: center;
+		margin: 3.77rem auto; 
+	}
+
+	.competency {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 1.54rem;
+		text-align: center;
+	}
+
+	.competency span {
+		font-size: 0.77rem;
+		font-family: Helvetica;
+	}
+
+	.info {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 100%;
+	}
+
+	.info .item {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		padding-bottom: 4rem;
+	}
+
+	.info .item .subject {
+		width: 100%;
+	}
+
+	.info .item .text {
+		padding-top: 1rem;
+		font-size: 0.77rem;
+	}
+
+	.footer {
+		display: flex;
+		justify-content: center;
+	}
+
+	.footer .logo img {
+		padding: 4rem 0;
+		height: 1.5rem;
+	}
+
+	.footer .logo span {
+		display: none;
+	}
+
 }
