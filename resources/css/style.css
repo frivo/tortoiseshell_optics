@@ -77,3 +77,66 @@ body {
 	font-weight: bold;
 	line-height: 1.2;
 }
+
+
+
+.competencies {
+	display: flex;
+	margin: 3rem auto; 
+	height: 8rem;
+}
+
+.competency {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 6rem;
+	text-align: center;
+}
+
+.competency img {
+	width: 5rem;
+	height: auto;
+}
+.exams img {
+	width: 3.5rem;
+	height: auto;
+}
+
+.info {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.info .item {
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+	padding-right: 5%;
+	margin: 0 auto;
+}
+
+.info .item .subject {
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 1rem;
+	background-color: cadetblue;
+	color: white;
+	width: 10rem;
+	padding: 0.5rem 0 0.5rem 1.25rem;
+}
+
+.info .item .text {
+	padding-top: 1rem;
+}
+
+.footer {
+	background-color: azure;
+	margin-top: 5rem;
+}
+
+.footer .logo img {
+	padding: 4rem 1rem 4rem 4rem;
+	height: 1.5rem;
+}
