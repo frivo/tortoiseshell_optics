@@ -171,13 +171,27 @@ body {
 }
 
 @media only screen and (max-width: 470px) {
-	.mobile-navigation {
-		display: flex;
+	.logo {
+		padding: 1rem;
+	}
+
+	.logo span {
+		display: none;
 	}
 
 	.navigation {
 		display: none;
 	}
+
+	.mobile-navigation {
+		display: flex;
+	}
+
+	.mobile-navigation ul {
+		display: block;
+		margin-right: 1rem;
+	}
+
 	.top {
 		height: 17rem;
 		padding-top: 0;
