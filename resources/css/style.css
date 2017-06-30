@@ -181,6 +181,7 @@ body {
 	.top {
 		height: 17rem;
 		padding-top: 0;
+		background-position: 20%;
 	}
 
 	.container {
